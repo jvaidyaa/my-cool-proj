@@ -1,13 +1,164 @@
-<!doctype html>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.341fa390760eefb319ae.js"></script><!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MyCoolProj</title>
-  <base href="https://jvaidyaa.github.io/my-cool-proj/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.34c57ab7888ec1573f9c.css"></head>
-<body>
-  <app-root></app-root>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.341fa390760eefb319ae.js"></script></body>
-</html>
+  <head>
+<base href="https://jvaidyaa.github.io/my-cool-proj/">    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i" rel="stylesheet">
+
+   <style type="text/css">
+
+   .body{
+     word-wrap: break-word;
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+   }
+
+   .a{
+     color:#000;
+   }
+
+   .a:hover{
+     text-decoration-line: underline;
+     color:black;
+   }
+
+   .container{
+     margin-top:80px;
+     margin-left: auto;
+   }
+
+
+   #left-side{
+     height:340px;
+     background: linear-gradient(#E2F9F2,#DAF7FB);
+     color:#292B2C;
+     width:100%;
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+     border-radius: 38px 0px 0px 0px;
+   }
+
+   #left-side:hover{
+   }
+
+   #logo{
+     font-size: 20px;
+     text-align: center;
+     width:90%;
+     padding-left: 5%;
+     font-weight: bold;
+     padding-top:150px;
+   }
+
+
+
+   #logo-info{
+     padding-top:20px;
+     font-size: 14px;
+     text-align: center;
+     width:90%;
+     padding-left: 5%;
+   }
+
+   #logo-info:hover{
+   }
+
+
+
+   #right-side{
+     height:340px;
+     background-color: white;
+     width:100%;
+     text-align: left;
+     font-family: 'Ubuntu', sans-serif;
+     border-style: solid;
+     border-color: #292B2C;
+     border-radius: 0px 0px 38px 0px;
+     border-width: thin;
+     padding-left: 20px;
+     padding-right: 20px;
+
+   }
+
+   .title{
+     font-size: 19px;
+     font-weight: bold;
+     padding-bottom: 10px;
+     padding-top: 20px;
+   }
+
+
+   .createAcc{
+     justify-content: right;
+     padding-top: -29px;
+   }
+
+
+
+
+   </style>
+
+
+
+ <link rel="stylesheet" href="styles.34c57ab7888ec1573f9c.css"></head>
+ <body>
+
+ <div class="container">
+   <div class="row">
+
+     <div class="col-sm-2">
+     </div>
+
+
+
+       <div class="col-sm-4">
+
+             <div id="left-side">
+               <div id="logo">
+                 make an account today
+               </div>
+               <div id="logo-info">
+                 a service to purchase and keep track of offers
+               </div>
+             </div>
+           </div>
+
+
+
+         <div class="col-sm-4">
+           <div id="right-side">
+             <div class="title">
+               Sign Up
+             </div>
+
+
+             <form>
+               <div class="form-group">
+                 <label for="inputUsername">Username:</label>
+                 <input type="Username" class="form-control" id="inputUsername" placeholder="enter username">
+               </div>
+               <div class="form-group">
+                 <label for="inputEmail">Email address</label>
+                 <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="enter email">
+               </div>
+               <div class="form-group">
+                 <label for="inputPassword">Password</label>
+                 <input type="password" class="form-control" id="inputPassword" placeholder="must be 7-15 characters">
+               </div>
+
+               <div class="form-check">
+                 <input type="checkbox" class="form-check-input" id="terms">
+
+              </div>
+
+              <span style="text-align: right"><button type="submit" class="btn btn-primary btn-xs">Create Account</button></span>
+
+
+            </form>
+
+            </div>
+           </div>
